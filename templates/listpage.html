@@ -1,0 +1,48 @@
+<div class="panel-up">
+	<div class="opening home-opening">
+		Front-end <span class="textStrong">Tech</span> & Workflow <br />
+		Where every <span class="textStrong">project</span> should consist of <span class="textStrong">the 4-P's</span>.
+		<span class="topHighlight">
+		<a ui-sref="preperation">Preperation</a>  / 
+		<a ui-sref="planning">Planning</a> / 
+		<a ui-sref="perform">Perform</a> / 
+		<a ui-sref="perfect">Perfect</a>
+	</span> 
+	</div>
+	<ul>
+		<li ng-repeat="tech in techs.dev1">{{tech.name}}</li>
+	</ul>
+
+	<section class="intro">
+	  <h2>Let's take a <span class="textGood">look</span> at some technologies!</h2>
+		<p class="tech-list">
+			<em ng-repeat="techCat in techs">
+				<span ng-repeat="tech in techCat">{{tech.name}} </span>
+			</em>
+		</p>
+	</section>
+
+	<img src="http://yeoman.io/assets/img/bullet-yo.f6f8.gif">
+	<img src="http://yeoman.io/assets/img/bullet-grunt.0c59.gif" />
+	<img src="http://yeoman.io/assets/img/bullet-bower.e181.gif"><br />
+
+	<section class="listed-tech">
+		<ul ng-repeat="techCat in techs">
+			<li ng-repeat="tech in techCat">
+				<a href="{{tech.url}}" target="_blank">{{tech.name}}</a>
+			</li>
+		</ul>
+	</section>
+</div>
+
+
+
+<nav class="home-icon">
+	<a ui-sref="home">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+			<g>
+			</g>
+				<path d="M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z" fill="#000000" />
+		</svg>
+	</a>
+</nav>

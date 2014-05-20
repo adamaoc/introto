@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>An Introduction to Front-End Tech &amp; Workflow</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/app.css">
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div class="container" ng-app="app">
+
+			<header class="opening">
+			  <span class="openingBig">
+				<span class="textStrong">An <span class="textGood">Introduction</span> to</span>
+			  </span>
+			</header>
+<!--
+			
+			<nav class="nav-opening" ng-include="'templates/nav.html'"></nav>
+-->
+			<div ui-view></div>
+
+<!--			<footer ng-include="'templates/footer.html'" class="footer"></footer>-->
+
+		</div>
+		
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.15/angular.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+        
+		<script src="js/app.js"></script>
+		<script src="js/controllers/homeCtrl.js"></script>
+		<script src="js/controllers/aboutCtrl.js"></script>
+		<script src="js/controllers/contactCtrl.js"></script>
+		<script src="js/controllers/perfCtrl.js"></script>
+		<script src="js/controllers/perfectCtrl.js"></script>
+		<script src="js/controllers/planCtrl.js"></script>
+		<script src="js/controllers/prepCtrl.js"></script>
+		<script src="js/controllers/listpageCtrl.js"></script>
+
+    </body>
+</html>

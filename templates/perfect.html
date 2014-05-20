@@ -1,0 +1,51 @@
+<div class="content">
+	<div class="panel-left">
+<h2>
+	<span class="textStrong">Perfect</span>
+</h2>
+
+<span class="description">
+	Perfecting your code doesn’t mean that you end up with the most perfect code ever to be written. It’s all about taking time to step back, look at what you’ve done, and take time to refactor things you could have done better or cleaner.
+</span>
+
+<pre rel="SCSS" class="language-markup"><code class="language-markup"><span class="token tag"><span class="token comment">/** 
+Modify CSS to hide links on small width and show button and select
+Also hides select and button on larger width and show's links
+**/
+<span class="token keyword">#menu ul</span> {
+  <span class="token selector">@include</span> bp(<span class="token selector">medium</span>) {
+    <span class="token property">display:</span> <span class="token keyword">none;</span>
+  }
+}</span>
+</span></code></pre>
+	</div>
+</div>
+
+<nav class="home-icon">
+	<a ui-sref="home">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+			<g>
+			</g>
+				<path d="M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z" fill="#000000" />
+		</svg>
+	</a>
+</nav>
+
+<nav class="down-arrow">
+	<a ui-sref="listpage">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+			<g>
+			</g>
+				<path d="M32 16c0-8.837-7.163-16-16-16s-16 7.163-16 16 7.163 16 16 16 16-7.163 16-16zM3 16c0-7.18 5.82-13 13-13s13 5.82 13 13-5.82 13-13 13-13-5.82-13-13zM17.414 25.414l8-8c0.781-0.781 0.781-2.047 0-2.828s-2.047-0.781-2.828 0l-4.586 4.586v-11.172c0-1.105-0.895-2-2-2s-2 0.895-2 2v11.172l-4.586-4.586c-0.781-0.781-2.047-0.781-2.829 0-0.391 0.391-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414l8 8c0.781 0.781 2.047 0.781 2.828 0z" fill="#000000" />
+		</svg>
+	</a>
+</nav>
+<nav class="left-arrow">
+	<a ui-sref="perform">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+			<g>
+			</g>
+				<path d="M16 0c8.837 0 16 7.163 16 16s-7.163 16-16 16-16-7.163-16-16 7.163-16 16-16zM16 29c7.18 0 13-5.82 13-13s-5.82-13-13-13-13 5.82-13 13 5.82 13 13 13zM6.586 14.586l8-8c0.781-0.781 2.047-0.781 2.828 0s0.781 2.047 0 2.828l-4.586 4.586h11.172c1.105 0 2 0.895 2 2s-0.895 2-2 2h-11.172l4.586 4.586c0.781 0.781 0.781 2.047 0 2.829-0.391 0.39-0.902 0.586-1.414 0.586s-1.024-0.195-1.414-0.586l-8-8c-0.781-0.781-0.781-2.047 0-2.828z" fill="#000000" />
+		</svg>
+	</a>
+</nav>
